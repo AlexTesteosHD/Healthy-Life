@@ -1,0 +1,426 @@
+.pagina{
+    width: 100%;
+}
+nav{
+    background-color: #153667;
+    width: 100%;
+    min-width: 100px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+nav img{
+    width: 65px;
+}
+.enlace-menu{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+    
+}
+.enlace-menu a{
+    color: white;
+    text-decoration: none;
+}
+.enlace-menu:hover{
+    color: darkgrey;
+}
+nav button{
+    margin-left: 80%;
+    background-color: rgb(165, 243, 87);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Arial, helvetica, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s easy,
+                 transfor 0.2s easy;
+}
+nav button:hover{
+    background-color: (178, 255, 171);
+}
+iframe{
+    widht: 100%;
+    min-height: 100vh;
+    border: none;
+}
+iframe{
+    width: 100%;
+    min-height: 100vh;
+    border: none;
+}
+
+.portada{
+    background-image:url("../imagenes/portada.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo_portada{
+    position: absolute;
+    width: 150px;
+    left: 80%;
+}
+.texto-portada{
+    color: white;
+    font-samily: "Outfilt", sans-serif;
+}
+h1{
+    font-family: "outfit", sans-serif;
+    color: white;
+    font-size: 60pt;
+    padding: 0px; 
+}
+h2{
+    color: greenyellow;
+    font-size: 80px;
+    font-family: "outfit", sans-serif
+}
+.linea-verde{
+    color: greenyellow;
+}
+.descripcion{
+    color: white;
+    font-family: "Outfit", sans-serift;
+    font-size: 25px;
+}
+.boton-principal{
+    background-color: yellowgreen;
+    padding: 15px 35px;
+    border border-radius: 30px;
+}
+.productos-destacados{
+    background-color: rgba(255, 255, 255, 0.65);
+    widht: 60%;
+    border-radius: 30px;
+}
+.encabezado-productos{
+ display: flex;
+ justify-content: space-between;
+ font-family: "outfit" sans-serif;   
+}
+.linea-verde{
+    color: greenyellow;
+
+}
+.ver-todo{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.targeta img{
+    widht: 100%;
+}
+footer{
+    widht: 100%;
+    min-height: 100px;
+    background-color: 15;
+}
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mujer,
+.hombre{
+    widht: 90%;
+    display: grid;
+    grid-auto-columns: repeat(3, 2fr);
+    gap: 30px;
+}
+.producto{
+    position: relative;
+    height: 300px;
+    background-color: #f5eee1;  
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30px;  
+}
+.producto:hover{
+    background-color: #777;
+}
+.producto img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.producto p:nth-last-of-type(1){
+    color: #153667;
+    font-family: "Outfit", sans-serif;
+    font-weight: bolder;
+}
+.producto p: :nth-last-of-type(2){
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+.pr-ant{
+    color: #888;
+    text-decoration: line-through;
+    font-weight: lighter;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.desc{
+    color: crimson;
+    margin-left: 10px;
+    font-size; medium;
+    background-color: #ffd2f1;
+}
+.producto button img{
+    width: 30px;
+    height: 30px;
+}
+.producto button{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 30px;
+    border: none
+}
+.producto button:hover{
+background-color: #777;
+}
+.seccion{
+    font-size: x-large;
+    font-family: "Outfit", sans-serif;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#color_prod1{
+    color: #6bbc7e;
+    font-size: 50px;
+}
+#color2_prod1{
+    color: #2bad03;
+    font-size: 50px;
+}
+#color3_prod1{
+    color: #ad032b;
+    font-size: 50px;
+}
+#color_prod2{
+    color: #350cad;
+    font-size: 50px;
+}
+#color2_prod2{
+    color: #1cb8ed;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+.Contenedor-sedes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mapa img{
+    width: 120%;
+    height: auto;
+}
+.pucallpa
+.sede-lima
+.sede-iquitos{
+    background-color: #f0f0f0;
+    margin-left: 10%;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.sede-lima,
+.sede-iquitos{
+    display: flex; 
+}
+.sede-lima img,
+.sede-iquitos img{
+
+} 
+
+.pucallpa img{
+    width: 100%
+}
+.pucallpa h2,
+.sede-pucallpa h2,
+.sede-iquitos h2 {
+    font-size: 24px;
+}
+.lista-servicios{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+
+
+.contenedor-sedes button{
+    border: none;
+    background-color: #5dcc16;
+    color: white;
+    padding: 5px 18px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+                 transform 0.2s ease,
+
+
+
+
+    background-color: #5dcc16;
+    color: white;
+
+
+.
+}
+.contenedor-sedes button:hover{
+    background-color: #d3ffb9;
+    transform: scale(1.05);
+}
+.sede-lima .info-sede,
+.sede-iquitos .info-sede{
+    flex: 1;
+    paddind: 30px;
+}
+
+
+/*=======================================
+   Aqui personalizo Contactos
+   ====================*/
+
+
+.form_conrt{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 15px;
+}
+.formulario{
+    width: 90%;
+}
+.formulario h1{
+    color: #153667;
+    margin: 10px;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formulario label{
+    font-size: 40px;
+}
+.formulario form input{
+    padding: 40px;
+}
+.formulario button{
+    padding: 5px 18px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+                 transform 0.2s ease;
+
+}
+.formulario button:hover{
+    background-color: #d3ffb9;
+    transform: scale(1.05)
+}
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98%;
+    gap: 20px;
+    height: 150px;
+}
+.corr-tel{
+    text-align: center;
+    border: 1px solid #153667;
+    border-radius: 30px;
+    padding: 20px;
+}
+.corr-tel img{
+    width: 80px;
+}
+.direccion{
+    grid-column: 2px;
+    grid-row: 2;
+    text-align: center;
+}
+.ubi-cont img{
+    max-width: 200px;
+}
+.punto-ubi{
+    max-width: 80px;
+}
+.mapa-sedes{
+    width: 100px;
+    height: 300px;
+    border-radius: 30px;
+}
